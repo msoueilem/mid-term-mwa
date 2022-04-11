@@ -1,0 +1,33 @@
+{
+  "name": "mid-term-mwa",
+  "version": "1.0.0",
+  "description": "API for grades",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msoueilem/mid-term-mwa.git"
+  },
+  "keywords": [
+    "MIDTERM"
+  ],
+  "author": "Soueilem Mohamed Lemine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msoueilem/mid-term-mwa/issues"
+  },
+  "homepage": "https://github.com/msoueilem/mid-term-mwa#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

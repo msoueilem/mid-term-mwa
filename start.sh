@@ -1,24 +1,23 @@
-#!bin/bash
+# #!bin/bash
 
-#From here we start creating the back-end
-echo "start creating folders"
-touch .env
-touch index.js
-mkdir api
-mkdir api/controllers 
-touch api/controllers/job.controller.js 
-touch api/controllers/person.controller.js 
-mkdir api/db
-touch api/db/db.js
-touch api/db/job.model.js
-mkdir api/public
-touch api/public/index.html
-mkdir api/routes
-touch api/routes/main.js
-npm init
-echo "end of creating folders"
+# #From here we start creating the back-end
+# echo "start creating folders"
+# touch .env
+# touch index.js
+# mkdir api
+# mkdir api/controllers 
+# touch api/controllers/grade.controller.js 
+# mkdir api/db
+# touch api/db/db.js
+# touch api/db/grade.model.js
+# mkdir api/public
+# touch api/public/index.html
+# mkdir api/routes
+# touch api/routes/main.js
+# npm init
+# echo "end of creating folders"
 npm i express dotenv body-parser mongoose path 
-# npm install --save-dev nodemon
+npm install --save-dev nodemon
 echo "end of installing packages"
 
 #From here we start creating the front-end
@@ -29,6 +28,9 @@ echo "creating components"
 ng g c navigation
 ng g c footer
 ng g c home
+ng g c grades
+ng g c grade
+ng g c delete-grade
 ng g c errorPage
 echo "create services"
-ng g s helpData
+ng g s grades-data
